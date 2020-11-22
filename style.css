@@ -1,0 +1,98 @@
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+body {
+  background-color: #312525;
+}
+
+header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  border-bottom: 1px solid white;
+}
+
+header nav {
+  height: 80px;
+  width: 80%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+header span {
+  font-size: 45px;
+  letter-spacing: 7px;
+  color: white;
+}
+
+header ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 35%;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+header a {
+  font-size: 20px;
+  color: white;
+}
+
+main {
+  margin: 5%;
+}
+
+main .content1 {
+  line-height: 60px;
+  color: white;
+}
+
+main .content1 h1 {
+  font-size: 70px;
+}
+
+main .content1 p {
+  padding-top: 10px;
+  font-size: 25px;
+}
+
+main .content2 {
+  margin-top: 5%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+main .content2 div {
+  color: white;
+  width: 20em;
+  font-size: 12px;
+}
+
+main .card-img-top {
+  height: 275px;
+}
+/*# sourceMappingURL=style.css.map */
